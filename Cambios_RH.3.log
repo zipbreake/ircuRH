@@ -1,0 +1,29 @@
+* 09/01/2007 ZipBreake <javier@jfv.es>    u2.10.RH.03.06     FEATURE
+  ------------------------------------------------------------------
+  Me agrego a los creditos ;P
+
+* 26/12/2006 ZipBreake <javier@jfv.es>    u2.10.RH.03.05     FEATURE
+  ------------------------------------------------------------------
+  Ahora la IP virtual solo se recalcula en caso de ser necesario y
+  se envia por el RAW 396.
+
+* 26/12/2006 ZipBreake <javier@jfv.es>    u2.10.RH.03.04     FEATURE
+  ------------------------------------------------------------------
+  Ponemos la tabla n como activa. Los cambios ahora de registro o de
+  suspension se realizan en caliente sobre el usuario sin necesidad
+  de un rename.
+
+* 26/12/2006 ZipBreake <javier@jfv.es>    u2.10.RH.03.03     CLEANUP
+  ------------------------------------------------------------------
+  Limpio e codigo de numerosos warnings al compilar conversiones
+  nuevas de gcc.
+
+* 26/12/2006 ZipBreake <javier@jfv.es>    u2.10.RH.03.02     FEATURE
+  ------------------------------------------------------------------
+  Configuro como features por defecto las utilizadas en RedHispana
+  para comodidad o descuidos de los propios IRCops.
+
+* 26/12/2006 ZipBreake <javier@jfv.es>    u2.10.RH.03.01     FEATURE
+  ------------------------------------------------------------------
+  Cambio el fichero de versiones a .paches en directorio principal
+  para facilitar el uso de scripts para el cvs.

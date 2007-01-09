@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+#
+# untabify - convert tabs to spaces
+#
+# $Id: untabify,v 1.1.1.1 2006/12/19 12:56:30 zipbreake Exp $
+use Text::Tabs;
+$tabstop = 8;
+while (<>) { print expand($_) }
+
